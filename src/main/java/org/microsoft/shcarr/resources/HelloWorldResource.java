@@ -9,6 +9,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import org.microsoft.shcarr.HelloWorldApplication;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.codahale.metrics.annotation.Timed;
 
 import org.microsoft.shcarr.api.Saying;
@@ -16,6 +19,8 @@ import org.microsoft.shcarr.api.Saying;
 @Path("/hello-world")
 @Produces(MediaType.APPLICATION_JSON)
 public class HelloWorldResource {
+    private static final Logger LOG = LoggerFactory.getLogger(HelloWorldApplication.class);
+
     private final String template;
     private final String defaultName;
     private final AtomicLong counter;
@@ -29,6 +34,7 @@ public class HelloWorldResource {
     @GET
     @Timed
     public Saying sayHello(@QueryParam("name") Optional<String> name) {
+        LOG.info("sayHello");
         final String value = String.format(template, name.orElse(defaultName));
         return new Saying(counter.incrementAndGet(), value);
     }

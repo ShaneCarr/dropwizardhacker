@@ -8,9 +8,11 @@ import org.microsoft.shcarr.resources.HelloWorldResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
-
+    private static final Logger LOG = LoggerFactory.getLogger(HelloWorldApplication.class);
     public static void main(final String[] args) throws Exception {
         new HelloWorldApplication().run(args);
     }
@@ -33,13 +35,15 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
             public void run(HelloWorldConfiguration configuration, Environment environment) throws Exception {
                 //try{
                 final Url urlPiiScrubber = new Url();
-
+                LOG.info("HelloWorldConfiguration.run.start");
                 final io.dropwizard.server.ServerFactory serverFactory = configuration.getServerFactory();
                 if (serverFactory instanceof ServerFactory) {
-                    final ServerFactory yammerServerFactory = (ServerFactory) serverFactory;
+                    LOG.info("HelloWorldConfiguration.setPiiScrubberconfigured");
+                    org.microsoft.shcarr.core.logging.ServerFactory yammerServerFactory = (ServerFactory) serverFactory;
                     yammerServerFactory.setPiiScrubber(urlPiiScrubber);
                 }
 
+                 LOG.info("HelloWorldConfiguration.run.done");
             //    registerLogging(environment);
 //                }catch(Exception e){
 //                    LOG.error(e.toString());

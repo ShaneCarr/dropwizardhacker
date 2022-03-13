@@ -1,9 +1,15 @@
 package org.microsoft.shcarr;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
+import org.microsoft.shcarr.core.logging.ServerFactory;
+
 import javax.validation.constraints.NotEmpty;
 
 public class HelloWorldConfiguration extends Configuration {
+    HelloWorldConfiguration(){
+        setServerFactory(new ServerFactory());
+    }
+
     @NotEmpty
     private String template;
 

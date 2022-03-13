@@ -25,19 +25,19 @@ import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.RequestLog;
 import org.eclipse.jetty.server.Response;
 import org.eclipse.jetty.util.component.AbstractLifeCycle;
-import org.eclipse.jetty.util.log.Log;
-import org.eclipse.jetty.util.log.Logger;
+//import org.eclipse.jetty.util.log.Log;
+//import org.eclipse.jetty.util.log.Logger;
+import org.microsoft.shcarr.HelloWorldApplication;
 import org.microsoft.shcarr.core.scrubber.PiiScrubber;
 import org.microsoft.shcarr.core.scrubber.Url;
-import org.slf4j.LoggerFactory;
-
 import javax.servlet.AsyncEvent;
 import javax.servlet.AsyncListener;
 import javax.servlet.DispatcherType;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 
@@ -57,8 +57,8 @@ import java.io.IOException;
 public class RequestLogHandler extends HandlerWrapper {
    // private static final org.slf4j.Logger LOG = LoggerFactory.getLogger(org.eclipse.jetty.server.handler.RequestLogHandler.class);
 
-    // FIXME: move the RequestLogHandler class into another package and instantiate in service startup instead of relying on Java magic to load it simply because it is in the same package as DropWizard expects it.
-    private static final Logger LOG = Log.getLogger(RequestLogHandler.class);
+    // private static final Logger LOG = Log.getLogger(RequestLogHandler.class);
+    private static final Logger LOG = LoggerFactory.getLogger(HelloWorldApplication.class);
 
     // At the same time, take the pii scrubber as an argument
     private final PiiScrubber piiScrubber = new Url();
@@ -131,6 +131,7 @@ public class RequestLogHandler extends HandlerWrapper {
 
     /* ------------------------------------------------------------ */
     public void setRequestLog(RequestLog requestLog) {
+        LOG.info("RequestLogHandler.setRequestLog");
         updateBean(this.requestLog, requestLog);
         this.requestLog = requestLog;
     }

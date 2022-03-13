@@ -6,3 +6,21 @@ logging:
   level: INFO
   loggers:
     org.microsoft.shcarr: DEBUG
+  appenders:
+    - type: file
+      currentLogFilename: ./logs/hw.log
+      archivedLogFilenamePattern: ./logs/hw-%d.log.gz
+      archivedFileCount: 50
+      timeZone: UTC
+    - type: console
+      threshold: VERBOSE
+      target: stdout
+
+server:
+  type: yammer_dropwizard_server_factory
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
