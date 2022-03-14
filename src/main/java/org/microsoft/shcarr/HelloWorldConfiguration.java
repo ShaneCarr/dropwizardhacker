@@ -1,12 +1,17 @@
 package org.microsoft.shcarr;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
-import org.microsoft.shcarr.core.logging.ServerFactory;
+import org.microsoft.shcarr.dropwizard.ServerFactory;
 
 import javax.validation.constraints.NotEmpty;
 
 public class HelloWorldConfiguration extends Configuration {
     HelloWorldConfiguration(){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         setServerFactory(new ServerFactory());
     }
 

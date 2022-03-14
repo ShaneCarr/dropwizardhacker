@@ -1,60 +1,31 @@
-INFO  [2022-03-13 06:03:29,160] org.eclipse.jetty.util.log: Logging initialized @1018ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:03:29,211] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:03:29,212] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:03:29,212] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:19:05,326] org.eclipse.jetty.util.log: Logging initialized @999ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:19:05,381] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:19:05,382] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:19:05,382] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:19:30,180] org.eclipse.jetty.util.log: Logging initialized @1033ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:19:30,236] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:19:30,237] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:19:30,238] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:19:41,276] org.eclipse.jetty.util.log: Logging initialized @1017ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:19:41,337] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:19:41,338] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:19:41,338] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:21:10,202] org.eclipse.jetty.util.log: Logging initialized @1017ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:21:10,256] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:21:10,257] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:21:10,257] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:29:13,454] org.eclipse.jetty.util.log: Logging initialized @1030ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:29:13,508] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:29:13,509] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:29:13,509] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:29:13,510] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.setPiiScrubberconfigured
-INFO  [2022-03-13 06:29:36,168] org.eclipse.jetty.util.log: Logging initialized @1012ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:29:36,220] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:29:36,221] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:29:36,221] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:29:36,222] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.setPiiScrubberconfigured
-INFO  [2022-03-13 06:42:17,243] org.eclipse.jetty.util.log: Logging initialized @1019ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:42:17,295] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:42:17,296] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:42:17,297] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:42:17,297] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
-INFO  [2022-03-13 06:42:17,349] io.dropwizard.server.ServerFactory: Starting HelloWorld
+INFO  [2022-03-13 21:00:13,379] org.eclipse.jetty.util.log: Logging initialized @1065ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-13 21:00:13,437] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-13 21:00:13,439] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-13 21:00:13,439] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-13 21:00:13,439] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-13 21:00:13,439] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-13 21:00:13,486] io.dropwizard.server.ServerFactory: Starting HelloWorld
 ================================================================================
 
                               HelloWorld
 
 ================================================================================
 
-INFO  [2022-03-13 06:42:17,403] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
-INFO  [2022-03-13 06:42:17,423] org.eclipse.jetty.setuid.SetUIDListener: Opened application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:42:17,423] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:42:17,425] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
-INFO  [2022-03-13 06:42:17,800] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+INFO  [2022-03-13 21:00:13,542] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-13 21:00:13,561] org.eclipse.jetty.setuid.SetUIDListener: Opened application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:00:13,561] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:00:13,563] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-13 21:00:13,965] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
 
     GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
 
-INFO  [2022-03-13 06:42:17,801] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6415f61e{/,null,AVAILABLE}
-INFO  [2022-03-13 06:42:17,805] io.dropwizard.setup.AdminEnvironment: tasks = 
+INFO  [2022-03-13 21:00:13,967] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6415f61e{/,null,AVAILABLE}
+INFO  [2022-03-13 21:00:13,970] io.dropwizard.setup.AdminEnvironment: tasks = 
 
     POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
     POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
 
-WARN  [2022-03-13 06:42:17,805] io.dropwizard.setup.AdminEnvironment: 
+WARN  [2022-03-13 21:00:13,970] io.dropwizard.setup.AdminEnvironment: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
@@ -63,41 +34,42 @@ WARN  [2022-03-13 06:42:17,805] io.dropwizard.setup.AdminEnvironment:
 !         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2022-03-13 06:42:17,806] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@61a91c9b{/,null,AVAILABLE}
-INFO  [2022-03-13 06:42:17,814] org.eclipse.jetty.server.AbstractConnector: Started application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:42:17,816] org.eclipse.jetty.server.AbstractConnector: Started admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:42:17,817] org.eclipse.jetty.server.Server: Started @1593ms
-INFO  [2022-03-13 06:48:42,987] org.eclipse.jetty.server.AbstractConnector: Stopped application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:48:42,990] org.eclipse.jetty.server.AbstractConnector: Stopped admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:48:42,992] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@61a91c9b{/,null,STOPPED}
-INFO  [2022-03-13 06:48:42,999] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@6415f61e{/,null,STOPPED}
-INFO  [2022-03-13 06:49:32,575] org.eclipse.jetty.util.log: Logging initialized @1018ms to org.eclipse.jetty.util.log.Slf4jLog
-INFO  [2022-03-13 06:49:32,625] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
-INFO  [2022-03-13 06:49:32,626] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
-INFO  [2022-03-13 06:49:32,627] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
-INFO  [2022-03-13 06:49:32,627] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
-INFO  [2022-03-13 06:49:32,669] io.dropwizard.server.ServerFactory: Starting HelloWorld
+INFO  [2022-03-13 21:00:13,971] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@61a91c9b{/,null,AVAILABLE}
+INFO  [2022-03-13 21:00:13,980] org.eclipse.jetty.server.AbstractConnector: Started application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:00:13,982] org.eclipse.jetty.server.AbstractConnector: Started admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:00:13,982] org.eclipse.jetty.server.Server: Started @1669ms
+INFO  [2022-03-13 21:03:46,648] org.eclipse.jetty.server.AbstractConnector: Stopped application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:03:46,649] org.eclipse.jetty.server.AbstractConnector: Stopped admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:03:46,650] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@61a91c9b{/,null,STOPPED}
+INFO  [2022-03-13 21:03:46,657] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@6415f61e{/,null,STOPPED}
+INFO  [2022-03-13 21:03:56,853] org.eclipse.jetty.util.log: Logging initialized @1058ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-13 21:03:56,909] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-13 21:03:56,910] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-13 21:03:56,910] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-13 21:03:56,911] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-13 21:03:56,911] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-13 21:03:56,956] io.dropwizard.server.ServerFactory: Starting HelloWorld
 ================================================================================
 
                               HelloWorld
 
 ================================================================================
 
-INFO  [2022-03-13 06:49:32,714] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
-INFO  [2022-03-13 06:49:32,733] org.eclipse.jetty.setuid.SetUIDListener: Opened application@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:49:32,733] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:49:32,735] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
-INFO  [2022-03-13 06:49:33,123] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+INFO  [2022-03-13 21:03:57,006] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-13 21:03:57,023] org.eclipse.jetty.setuid.SetUIDListener: Opened application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:03:57,023] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:03:57,025] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-13 21:03:57,414] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
 
     GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
 
-INFO  [2022-03-13 06:49:33,127] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@334ebcaa{/,null,AVAILABLE}
-INFO  [2022-03-13 06:49:33,130] io.dropwizard.setup.AdminEnvironment: tasks = 
+INFO  [2022-03-13 21:03:57,416] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6415f61e{/,null,AVAILABLE}
+INFO  [2022-03-13 21:03:57,419] io.dropwizard.setup.AdminEnvironment: tasks = 
 
     POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
     POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
 
-WARN  [2022-03-13 06:49:33,130] io.dropwizard.setup.AdminEnvironment: 
+WARN  [2022-03-13 21:03:57,419] io.dropwizard.setup.AdminEnvironment: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
@@ -106,21 +78,183 @@ WARN  [2022-03-13 06:49:33,130] io.dropwizard.setup.AdminEnvironment:
 !         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2022-03-13 06:49:33,131] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@17092fff{/,null,AVAILABLE}
-INFO  [2022-03-13 06:49:33,139] org.eclipse.jetty.server.AbstractConnector: Started application@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:49:33,142] org.eclipse.jetty.server.AbstractConnector: Started admin@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:49:33,142] org.eclipse.jetty.server.Server: Started @1586ms
-INFO  [2022-03-13 06:50:21,456] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler handle
-INFO  [2022-03-13 06:50:21,489] org.microsoft.shcarr.HelloWorldApplication: sayHello
-INFO  [2022-03-13 06:50:21,508] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler finally
-INFO  [2022-03-13 06:50:21,508] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler does this get logged-2-1
-INFO  [2022-03-13 06:50:21,509] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler does this get logged-2-2
-INFO  [2022-03-13 06:50:24,717] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler handle
-INFO  [2022-03-13 06:50:24,719] org.microsoft.shcarr.HelloWorldApplication: sayHello
-INFO  [2022-03-13 06:50:24,720] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler finally
-INFO  [2022-03-13 06:50:24,720] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler does this get logged-2-1
-INFO  [2022-03-13 06:50:24,720] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler does this get logged-2-2
-INFO  [2022-03-13 06:51:55,120] org.eclipse.jetty.server.AbstractConnector: Stopped application@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
-INFO  [2022-03-13 06:51:55,121] org.eclipse.jetty.server.AbstractConnector: Stopped admin@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
-INFO  [2022-03-13 06:51:55,122] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@17092fff{/,null,STOPPED}
-INFO  [2022-03-13 06:51:55,128] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@334ebcaa{/,null,STOPPED}
+INFO  [2022-03-13 21:03:57,420] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@61a91c9b{/,null,AVAILABLE}
+INFO  [2022-03-13 21:03:57,427] org.eclipse.jetty.server.AbstractConnector: Started application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:03:57,430] org.eclipse.jetty.server.AbstractConnector: Started admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:03:57,430] org.eclipse.jetty.server.Server: Started @1636ms
+INFO  [2022-03-13 21:10:51,601] org.eclipse.jetty.server.AbstractConnector: Stopped application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:10:51,603] org.eclipse.jetty.server.AbstractConnector: Stopped admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:10:51,604] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@61a91c9b{/,null,STOPPED}
+INFO  [2022-03-13 21:10:51,615] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@6415f61e{/,null,STOPPED}
+INFO  [2022-03-13 21:11:18,575] org.eclipse.jetty.util.log: Logging initialized @1074ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-13 21:11:18,628] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-13 21:11:18,629] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-13 21:11:18,629] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-13 21:11:18,629] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-13 21:11:18,630] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-13 21:11:18,674] io.dropwizard.server.ServerFactory: Starting HelloWorld
+================================================================================
+
+                              HelloWorld
+
+================================================================================
+
+INFO  [2022-03-13 21:11:18,726] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-13 21:11:18,744] org.eclipse.jetty.setuid.SetUIDListener: Opened application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:11:18,744] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:11:18,746] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-13 21:11:19,146] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
+
+INFO  [2022-03-13 21:11:19,148] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6415f61e{/,null,AVAILABLE}
+INFO  [2022-03-13 21:11:19,152] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2022-03-13 21:11:19,152] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2022-03-13 21:11:19,153] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@61a91c9b{/,null,AVAILABLE}
+INFO  [2022-03-13 21:11:19,161] org.eclipse.jetty.server.AbstractConnector: Started application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:11:19,163] org.eclipse.jetty.server.AbstractConnector: Started admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:11:19,163] org.eclipse.jetty.server.Server: Started @1663ms
+INFO  [2022-03-13 21:11:29,886] org.eclipse.jetty.server.AbstractConnector: Stopped application@281f23f2{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:11:29,887] org.eclipse.jetty.server.AbstractConnector: Stopped admin@87abc48{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:11:29,888] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@61a91c9b{/,null,STOPPED}
+INFO  [2022-03-13 21:11:29,894] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@6415f61e{/,null,STOPPED}
+INFO  [2022-03-13 21:11:42,954] org.eclipse.jetty.util.log: Logging initialized @1093ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-13 21:11:43,007] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-13 21:11:43,008] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-13 21:11:43,008] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-13 21:11:43,008] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-13 21:11:43,009] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-13 21:11:43,054] io.dropwizard.server.ServerFactory: Starting HelloWorld
+================================================================================
+
+                              HelloWorld
+
+================================================================================
+
+INFO  [2022-03-13 21:11:43,106] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-13 21:11:43,124] org.eclipse.jetty.setuid.SetUIDListener: Opened application@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:11:43,125] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@782168b7{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:11:43,127] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-13 21:11:43,520] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
+
+INFO  [2022-03-13 21:11:43,522] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@5a0bef24{/,null,AVAILABLE}
+INFO  [2022-03-13 21:11:43,525] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2022-03-13 21:11:43,526] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2022-03-13 21:11:43,526] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@2121d1f9{/,null,AVAILABLE}
+INFO  [2022-03-13 21:11:43,534] org.eclipse.jetty.server.AbstractConnector: Started application@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:11:43,536] org.eclipse.jetty.server.AbstractConnector: Started admin@782168b7{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:11:43,536] org.eclipse.jetty.server.Server: Started @1676ms
+INFO  [2022-03-13 21:13:45,065] org.eclipse.jetty.server.AbstractConnector: Stopped application@28d79cba{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:13:45,068] org.eclipse.jetty.server.AbstractConnector: Stopped admin@782168b7{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:13:45,070] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@2121d1f9{/,null,STOPPED}
+INFO  [2022-03-13 21:13:45,087] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@5a0bef24{/,null,STOPPED}
+INFO  [2022-03-13 21:24:56,009] org.eclipse.jetty.util.log: Logging initialized @650127ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-13 21:24:56,083] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-13 21:24:56,085] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-13 21:24:56,086] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-13 21:24:56,086] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-13 21:24:56,086] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-13 21:24:56,141] io.dropwizard.server.ServerFactory: Starting HelloWorld
+================================================================================
+
+                              HelloWorld
+
+================================================================================
+
+INFO  [2022-03-13 21:24:56,206] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-13 21:24:56,231] org.eclipse.jetty.setuid.SetUIDListener: Opened application@706cb08{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:24:56,232] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@4e25147a{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:24:56,250] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-13 21:24:56,702] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
+
+INFO  [2022-03-13 21:24:56,704] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@43982337{/,null,AVAILABLE}
+INFO  [2022-03-13 21:24:56,709] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2022-03-13 21:24:56,709] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2022-03-13 21:24:56,711] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@3b705be7{/,null,AVAILABLE}
+INFO  [2022-03-13 21:24:56,720] org.eclipse.jetty.server.AbstractConnector: Started application@706cb08{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:24:56,723] org.eclipse.jetty.server.AbstractConnector: Started admin@4e25147a{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:24:56,723] org.eclipse.jetty.server.Server: Started @650843ms
+INFO  [2022-03-13 21:24:57,942] org.eclipse.jetty.server.AbstractConnector: Stopped application@706cb08{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-13 21:24:57,944] org.eclipse.jetty.server.AbstractConnector: Stopped admin@4e25147a{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-13 21:24:57,944] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@3b705be7{/,null,STOPPED}
+INFO  [2022-03-13 21:24:57,951] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@43982337{/,null,STOPPED}
+INFO  [2022-03-14 03:57:13,551] org.eclipse.jetty.util.log: Logging initialized @23530211ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2022-03-14 03:57:13,630] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2022-03-14 03:57:13,632] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2022-03-14 03:57:13,632] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.start
+INFO  [2022-03-14 03:57:13,632] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.type.class io.dropwizard.server.DefaultServerFactory
+INFO  [2022-03-14 03:57:13,633] org.microsoft.shcarr.HelloWorldApplication: HelloWorldConfiguration.run.done
+INFO  [2022-03-14 03:57:13,686] io.dropwizard.server.ServerFactory: Starting HelloWorld
+================================================================================
+
+                              HelloWorld
+
+================================================================================
+
+INFO  [2022-03-14 03:57:13,747] org.microsoft.shcarr.HelloWorldApplication: RequestLogHandler.setRequestLog
+INFO  [2022-03-14 03:57:13,785] org.eclipse.jetty.setuid.SetUIDListener: Opened application@706cb08{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-14 03:57:13,786] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@4e25147a{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-14 03:57:13,793] org.eclipse.jetty.server.Server: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.2+8-Ubuntu-120.04
+INFO  [2022-03-14 03:57:14,238] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (org.microsoft.shcarr.resources.HelloWorldResource)
+
+INFO  [2022-03-14 03:57:14,241] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@43982337{/,null,AVAILABLE}
+INFO  [2022-03-14 03:57:14,244] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2022-03-14 03:57:14,245] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2022-03-14 03:57:14,245] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@3b705be7{/,null,AVAILABLE}
+INFO  [2022-03-14 03:57:14,256] org.eclipse.jetty.server.AbstractConnector: Started application@706cb08{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2022-03-14 03:57:14,260] org.eclipse.jetty.server.AbstractConnector: Started admin@4e25147a{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2022-03-14 03:57:14,260] org.eclipse.jetty.server.Server: Started @23530923ms

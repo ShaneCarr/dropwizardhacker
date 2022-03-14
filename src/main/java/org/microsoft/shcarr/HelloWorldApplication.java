@@ -1,8 +1,8 @@
 package org.microsoft.shcarr;
 
 import io.dropwizard.ConfiguredBundle;
-import org.microsoft.shcarr.core.logging.ServerFactory;
 import org.microsoft.shcarr.core.scrubber.Url;
+import org.microsoft.shcarr.dropwizard.ServerFactory;
 import org.microsoft.shcarr.resources.HelloWorldResource;
 
 import io.dropwizard.Application;
@@ -27,19 +27,14 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
         bootstrap.addBundle(new ConfiguredBundle<HelloWorldConfiguration>() {
 
             @Override
-            public void initialize(Bootstrap<?> bootstrap) {
-                // NOP
-            }
-
-            @Override
             public void run(HelloWorldConfiguration configuration, Environment environment) throws Exception {
-                //try{
                 final Url urlPiiScrubber = new Url();
                 LOG.info("HelloWorldConfiguration.run.start");
                 final io.dropwizard.server.ServerFactory serverFactory = configuration.getServerFactory();
+                LOG.info("HelloWorldConfiguration.type." + serverFactory.getClass().toString());
                 if (serverFactory instanceof ServerFactory) {
                     LOG.info("HelloWorldConfiguration.setPiiScrubberconfigured");
-                    org.microsoft.shcarr.core.logging.ServerFactory yammerServerFactory = (ServerFactory) serverFactory;
+                    ServerFactory yammerServerFactory = (ServerFactory) serverFactory;
                     yammerServerFactory.setPiiScrubber(urlPiiScrubber);
                 }
 
@@ -48,6 +43,11 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
 //                }catch(Exception e){
 //                    LOG.error(e.toString());
 //                }
+            }
+
+            @Override
+            public void initialize(Bootstrap<?> bootstrap) {
+                // NOP
             }
         });
     }
