@@ -1,5 +1,8 @@
-/home/shane/repo/dropwizardtest/HelloWorld/src/main/java/org/microsoft/shcarr/resources/HelloWorldResource.java
-/home/shane/repo/dropwizardtest/HelloWorld/src/main/java/org/microsoft/shcarr/api/Saying.java
-/home/shane/repo/dropwizardtest/HelloWorld/src/main/java/org/eclipse/jetty/server/handler/RequestLogHandler.java
-/home/shane/repo/dropwizardtest/HelloWorld/src/main/java/org/microsoft/shcarr/HelloWorldApplication.java
-/home/shane/repo/dropwizardtest/HelloWorld/src/main/java/org/microsoft/shcarr/HelloWorldConfiguration.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/HelloWorldConfiguration.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/resources/HelloWorldResource.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/core/scrubber/Url.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/core/scrubber/PiiScrubber.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/core/logging/PiiFilteringRequestLog.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/dropwizard/ServerFactory.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/HelloWorldApplication.java
+/Users/shane/repo/dropwizardhacker/src/main/java/org/microsoft/shcarr/api/Saying.java
