@@ -39,10 +39,6 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
                 }
 
                  LOG.info("HelloWorldConfiguration.run.done");
-            //    registerLogging(environment);
-//                }catch(Exception e){
-//                    LOG.error(e.toString());
-//                }
             }
 
             @Override

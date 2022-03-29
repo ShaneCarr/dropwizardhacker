@@ -1,0 +1,7 @@
+org.microsoft.shcarr
+org.microsoft.shcarr.api
+org.microsoft.shcarr.core.logging
+org.microsoft.shcarr.core.scrubber
+org.microsoft.shcarr.dropwizard
+org.microsoft.shcarr.resources
+org.microsoft.shcarr.security

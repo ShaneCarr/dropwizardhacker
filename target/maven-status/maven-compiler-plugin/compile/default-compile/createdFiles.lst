@@ -1,5 +1,11 @@
 org/microsoft/shcarr/core/scrubber/PiiScrubber.class
 org/microsoft/shcarr/HelloWorldApplication$1.class
-org/microsoft/shcarr/dropwizard/ServerFactory.class
+org/microsoft/shcarr/security/Token.class
+org/microsoft/shcarr/HelloWorldConfiguration.class
+org/microsoft/shcarr/HelloWorldApplication.class
 org/microsoft/shcarr/core/logging/PiiFilteringRequestLog.class
+org/microsoft/shcarr/api/Saying.class
+org/microsoft/shcarr/resources/HelloWorldResource.class
+org/microsoft/shcarr/dropwizard/ServerFactory.class
+org/microsoft/shcarr/security/Auth.class
 org/microsoft/shcarr/core/scrubber/Url.class

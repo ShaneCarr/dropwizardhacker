@@ -115,6 +115,11 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <groupId>org.glassfish.jersey.inject</groupId>
+        <artifactId>jersey-hk2</artifactId>
+        <version>3.0.4</version>
+      </dependency>
+      <dependency>
         <groupId>io.dropwizard</groupId>
         <artifactId>dropwizard-dependencies</artifactId>
         <version>${dropwizard.version}</version>
@@ -131,7 +136,7 @@
   <properties>
     <dropwizard.version>2.0.28</dropwizard.version>
     <mainClass>org.microsoft.shcarr.HelloWorldApplication</mainClass>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
